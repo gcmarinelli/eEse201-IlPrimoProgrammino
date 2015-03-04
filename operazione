@@ -1,0 +1,23 @@
+#include <stdlib.h>
+#include <stdio.h>
+ main()
+{
+ int x, y;
+  int somma, sottrazione, moltiplicazione,divisione;
+ 
+x=5;
+y=3;
+
+somma=x+y;
+divisione=x/y;
+moltiplicazione=x*y;
+sottrazione=x-y;
+ printf ("la somma e' %d \n", somma);
+ printf ("la sottrazione e'%d \n", sottrazione);
+ printf ("la moltiplicazione e' %d\n", moltiplicazione);
+  printf ("la divisione e'%d\n" ,  divisione);
+  
+ system("pause");
+ return 0;
+ 
+}
